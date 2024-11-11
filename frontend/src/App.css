@@ -1,0 +1,65 @@
+/* just so you know, since I imported the react-bootstrap css in app.js for the frontend, it is overriding
+my existing css, such as the fonts. If I dont have it, the bootstrap elements dont work. Tried looking
+into it, but can't seem to figure out how to use both. Try commenting it out and see what happens */
+
+.App {
+  text-align: center;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.nav-left{
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar a{
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: large;
+  text-decoration: none;
+}
+/* Style for the login link */
+.login-link {
+  color: white;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: rgba(241, 194, 153, 0.9); 
+  padding: 5px;
+}
+.nav-bar a:hover {
+  color: rgba(241, 194, 153, 0.9);
+}
+.login-link:hover {
+  background-color: white;
+  color: rgba(241, 194, 153, 0.9);
+}
+#logo{
+  padding: 0;
+  margin: 0;
+  padding-right: 20px;
+}
+#logoLink{
+  color: white;
+}
+#search{
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+footer{
+  background-color: black;
+  padding: 20px;
+}
+footer p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
